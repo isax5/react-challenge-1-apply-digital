@@ -10,8 +10,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --foreground-rgb: #3b3b3b;
+    --background-start-rgb: #fcfcfc;
     --background-end-rgb: 0, 0, 0;
   }
 }
