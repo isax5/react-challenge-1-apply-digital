@@ -24,7 +24,7 @@ export default function Home() {
   )
 }
 
-export const getInfo = (async (context) => {
+const getInfo = (async (context) => {
   const res = await fetch('https://hn.algolia.com/api/v1/search_by_date?query=angular&page=0')
   const repo = await res.json()
   return { props: { repo } }
